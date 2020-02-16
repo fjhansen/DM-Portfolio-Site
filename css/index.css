@@ -126,3 +126,54 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.mainGallery {
+  width: 50%;
+}
+.mainGallery .parent {
+  display: grid;
+  grid-template-columns: 1.21fr 0.5fr 1.05fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  outline: 3px solid red;
+  width: 100%;
+}
+.mainGallery .parent .div1 {
+  grid-area: 0.25;
+}
+.mainGallery .parent .div2 {
+  grid-area: 0.08333333;
+}
+.mainGallery .parent .div3 {
+  grid-area: 0.04166667;
+}
+.mainGallery .parent .div4 {
+  grid-area: 0.33333333;
+}
+.mainGallery .parent .div5 {
+  grid-area: 0.11111111;
+}
+.mainGallery .parent .div6 {
+  grid-area: 0.05555556;
+}
+.mainGallery .parent .div7 {
+  grid-area: 0.375;
+}
+.mainGallery .parent .div8 {
+  grid-area: 0.125;
+}
+.mainGallery .parent .div9 {
+  grid-area: 0.0625;
+}
+.mainGallery .parent .div10 {
+  grid-area: 0.4;
+}
+.mainGallery .parent .div11 {
+  grid-area: 0.13333333;
+}
+.mainGallery .parent .div12 {
+  grid-area: 0.06666667;
+}
+.mainGallery .parent img {
+  width: 100%;
+}
